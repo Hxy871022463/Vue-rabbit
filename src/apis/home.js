@@ -10,3 +10,13 @@ export const findNewAPI = () => {
     url:'/home/new'
   })
 }
+
+export const getHotAPI = () => {
+  return httpInstance('home/hot', {})
+}
+
+export const getGoodsAPI = () => {
+  return httpInstance({
+    url: '/home/goods'
+  })
+}
